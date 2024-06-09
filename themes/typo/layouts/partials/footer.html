@@ -26,6 +26,11 @@
     }
     updateIcons();
   });
+  if (localStorage.getItem("pref-theme") === "dark") {
+    document.body.classList.add("dark");
+  } else if (localStorage.getItem("pref-theme") === "light") {
+    document.body.classList.remove("dark");
+  }
 </script>
 
 {{ if .Param "math" }} {{ partialCached "math.html" . }} {{ end }}
