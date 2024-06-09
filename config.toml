@@ -1,0 +1,59 @@
+baseURL = 'https://aahnik.dev/'
+# languageCode = 'en'
+title = 'Aahnik'
+theme = "typo"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Space to Breathe Serendipity"
+theme = "light"
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Having fun with software engineering!
+"""
+
+
+# Collection to display on home
+homeCollectionTitle = 'Musings'
+homeCollection = 'musings'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/aahnik/"
+
+
+[[params.social]]
+name = "github"
+url = "https://github.com/aahnik"
+
+[[params.social]]
+name = "youtube"
+url = "https://youtube.com/@aahnik"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "musings"
+url = "/musings"
+
+[[params.menu]]
+name = "essence"
+url = "/essence"

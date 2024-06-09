@@ -1,0 +1,31 @@
+<p>
+  View on GitHub
+  <a href="https://github.com/aahnik/home">@aahnik/home</a>
+</p>
+<script>
+  const moonIcon = document.getElementById("moon");
+  const sunIcon = document.getElementById("sun");
+
+  function updateIcons() {
+    if (document.body.className.includes("dark")) {
+      moonIcon.style.display = "none";
+      sunIcon.style.display = "block";
+    } else {
+      moonIcon.style.display = "block";
+      sunIcon.style.display = "none";
+    }
+  }
+  updateIcons();
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    if (document.body.className.includes("dark")) {
+      document.body.classList.remove("dark");
+      localStorage.setItem("pref-theme", "light");
+    } else {
+      document.body.classList.add("dark");
+      localStorage.setItem("pref-theme", "dark");
+    }
+    updateIcons();
+  });
+</script>
+
+{{ if .Param "math" }} {{ partialCached "math.html" . }} {{ end }}
