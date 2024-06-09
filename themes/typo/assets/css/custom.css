@@ -31,6 +31,8 @@ button#theme-toggle {
   justify-content: space-between;
 }
 
-body {
-  font-size: 133%;
+@media (min-width: 992px) {
+  body {
+    font-size: 133%;
+  }
 }
