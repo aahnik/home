@@ -30,3 +30,7 @@ button#theme-toggle {
   display: flex;
   justify-content: space-between;
 }
+
+body {
+  font-size: 133%;
+}
