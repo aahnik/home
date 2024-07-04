@@ -1,13 +1,15 @@
 ---
+slug: launching-this
 title: "Launching my personal digital space"
 date: "2024-06-09"
-summary: "A space to breathe serendipity"
-description: "Starting my own digital space to share my work, ideas, and explorations!"
+tags: ["digital garden", "blog"]
+summary: "Starting my own digital space to share my work, ideas, and explorations!"
+description: "A space to breathe serendipity!"
 toc: true
 readTime: true
 math: true
-tags: ["digital garden", "blog"]
 showTags: true
+lastmod: "2024-07-04"
 ---
 
 ## Why a personal blog
@@ -17,7 +19,6 @@ I had in past written in [dev.to](https://dev.to/aahnik) and medium, and a lot i
 Its time to have a digital space for all my rants, and ramblings and musings.
 
 A space where I can get breathe serendipity,and get inspired to do awesome stuff.
-
 
 ## End to Procastrination
 
@@ -31,10 +32,7 @@ Finally I decided to go with Hugo, and this theme called typo. I have customized
 
 Over time, I will make some changes to improve the functionality of this site, but I will always keep it very minimalistic and clean.
 
-One thing, i can guarantee, is that I will never post LLM generated shit. Evey word that goes here, are true reflection of neurons firing in my own organic brain.
+One thing, i can guarantee, is that I will never post LLM generated content.
 
-I dont believe in polishing english too much, that looses the natural essence, I have.
-I might use grammarly to fix a few typos, and grammar here and there,but, I commit to not using LLMs.
-
-
+Every word that goes here, are true reflection of neurons firing in my own organic brain. (okay fine... I might use LLMs to improve my writing!)
 
