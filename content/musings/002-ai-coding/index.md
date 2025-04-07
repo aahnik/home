@@ -1,7 +1,7 @@
 ---
 slug: vibe-coding
 title: "Should you Vibe Code?"
-date: ""
+date: "2025-04-08"
 tags: ["ai", "coding"]
 summary: "My perspective on vibe coding"
 toc: true
