@@ -15,6 +15,11 @@ theme = "light"
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
 Having fun with software engineering!
+
+
+Areas of Interest: Distributed Systems, Language Models, Database Systems, Deep Learning, Artificial Neural Networks, Software Engineering
+
+[resume](https://www.linkedin.com/in/aahnik/overlay/1756574320893/single-media-viewer/?profileId=ACoAADHN7w8BYM11xuZVt_64Hh-CFE4yEoS5QEU)
 """
 
 
