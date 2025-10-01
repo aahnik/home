@@ -1,10 +1,10 @@
 ---
 slug: cheers-to-dopamine-drive-random-walks
 title: "Cheers to Dopamine Driven Random Walks"
-date: ""
-tags: ["ai", "ml"]
-summary: "The backpropagation paper"
-toc: true
+date: "2025-10-01"
+tags: ["ai", "ml", "learning"]
+summary: "Whats the best and most enjoyable way to learn ?"
+toc: false
 readTime: true
 math: true
 showTags: true
@@ -33,3 +33,9 @@ but, once you have gone through volumes of code, and papers, and books, and onli
 then before the interview/attempting some specific task you can see one perfect cheatsheet, and finetune yourself for any specific task
 
 cheers to dopamine-driven random walks!
+
+---
+
+references:
+
+- https://openai.com/index/clip/
